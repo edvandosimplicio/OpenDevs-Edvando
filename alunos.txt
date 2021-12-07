@@ -1,0 +1,25 @@
+::::::::::::::::::Alunos::::::::::::::::::::::::::::::
+
+Edvando Simplício da Silva e José Adeilton da Silva
+
+::::::::::::::::::::::AV2-API::::::::::::::::::::::::::::::
+
+A API tem o objetivo de apresentar o projeto "OpenDevs", criação totalmente fictícia com o objetivo de
+apenas apresentar uma básica aplicação para o contexto da API.
+
+::::::::::::::Instruções::::::::::::::::::::::::::::::
+
+Para subir o projeto:
+
+1. Será necessário o uso da ferramenta xampp.
+(disponibilzado aqui: https://www.apachefriends.org/pt_br/index.html).
+
+2. Criar um database no PhpMyAdmin com o nome 'opendevs' e deverá importar o arquivo(tabela de dados)
+usuario.sql (encontrado em: bancodedados/usuario.sql).
+	**já há dados pré carregados nesse .sql**
+	
+3. Abrir a pasta com o edito escolhido e alterar no arquivo 'conexao.php' o user para o seu usuario
+e o pass para sua senha do banco de dados.
+
+4. Após acessar o projeto no localhost, basta abrir a pasta View onde terá 
+todo o front-end e back-end em .php. O arquivo index.php, abrirá automaticamente.
